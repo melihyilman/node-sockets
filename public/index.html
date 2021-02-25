@@ -8,5 +8,11 @@
   </head>
   <body>
     <p>wellcome to the chat app</p>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script>
+      var socket = io();
+      socket.emit("teyteytey", "ben geldim göt");
+    </script>
   </body>
 </html>
